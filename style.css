@@ -410,6 +410,11 @@ body {
   transform: scale(1.2);
   color: #7be5f3; /* or any highlight color */
 }
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 @media (max-width: 768px) {
   .logo {
     font-size: 1.2rem;
@@ -506,10 +511,4 @@ body {
   .social-icons a {
     font-size: 22px;
   }
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
 }
