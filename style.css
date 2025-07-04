@@ -10,17 +10,18 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding-top: 80px; /* Keeps spacing from fixed nav */
+  padding-top: 80px; 
   text-align: center;
 }
-
 .home .content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
+.home.section {
+  padding: 0;
+}
 body {
   background-size: cover;
   background-color: black;
