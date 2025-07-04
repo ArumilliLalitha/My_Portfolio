@@ -5,20 +5,22 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
-#home {
-  height: 100vh;
+.home {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding-top: 60px; /* for fixed navbar */
+  align-items: center;
+  height: 100vh;
+  padding-top: 80px; /* Keeps spacing from fixed nav */
+  text-align: center;
 }
-#home .content {
+
+.home .content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
+
 body {
   background-size: cover;
   background-color: black;
