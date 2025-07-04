@@ -322,8 +322,8 @@ body {
 .contact-box {
   background-color: #161616;
   padding: 60px;
-  max-width: 600px;
-  width: 600px;
+  max-width: 400px;
+  width: 400px;
   align-items: center;
   justify-content: center;
   margin: 0 auto; 
@@ -414,6 +414,15 @@ footer {
   text-align: center;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 768px) {
+  .nav-links li:nth-child(1), /* HOME */
+  .nav-links li:nth-child(2), /* ABOUT */
+  .nav-links li:nth-child(3), /* EDUCATION */
+  .nav-links li:nth-child(4), /* SKILLS */
+  .nav-links li:nth-child(6)  /* CERTIFICATIONS */ {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .logo {
