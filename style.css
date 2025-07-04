@@ -477,7 +477,8 @@ footer {
   .section h2 {
     font-size: 1.6rem;
   }
-  .skill-card h3,
+  .skill-card h3{
+    font-size: 1.5rem
   .project-card h3,
   .certification-card h3 {
     font-size: 1.1rem;
@@ -488,14 +489,14 @@ footer {
   }
   .contact-form input,
   .contact-form textarea {
-    font-size: 0.95rem;
+    font-size: 0.65rem;
   }
   .read-more-btn {
     padding: 8px 16px;
     font-size: 0.95rem;
   }
   .social-icons a {
-    font-size: 22px;
+    font-size: 15px;
   }
 }
 .menu-toggle {
@@ -534,6 +535,8 @@ footer {
   color: white;
   cursor: pointer;
   z-index: 2001;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 768px) {
   .menu-toggle {
