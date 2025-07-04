@@ -499,9 +499,17 @@ footer {
     font-size: 15px;
   }
 }
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  z-index: 2001;
+}
+
 @media (max-width: 768px) {
   .menu-toggle {
-    display: flex;
+    display: block;
   }
 
   .nav-links {
@@ -515,25 +523,25 @@ footer {
     padding: 20px 0;
     text-align: center;
     z-index: 2000;
-    animation: slideDown 0.3s ease;
   }
 
   .nav-links.active {
     display: flex;
+    animation: dropdown 0.3s ease-in-out;
   }
 
   .nav-links li {
     margin: 15px 0;
   }
 
-  @keyframes slideDown {
+  @keyframes dropdown {
     from {
+      transform: translateY(-20px);
       opacity: 0;
-      transform: translateY(-10px);
     }
     to {
-      opacity: 1;
       transform: translateY(0);
+      opacity: 1;
     }
   }
 }
