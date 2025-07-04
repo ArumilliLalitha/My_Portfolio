@@ -447,7 +447,7 @@ footer {
   .certification-card,
   .contact-box {
     width: 100%;
-    max-width: 70%;
+    max-width: 100%;
   }
 
   .skills-container {
