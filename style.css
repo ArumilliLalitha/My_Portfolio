@@ -5,6 +5,15 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
+#home,
+#about,
+#education,
+#skills,
+#projects,
+#certifications,
+#contact {
+  scroll-margin-top: 100px; 
+}
 .home {
   display: flex;
   justify-content: center;
