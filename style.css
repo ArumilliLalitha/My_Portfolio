@@ -5,22 +5,19 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#home {
   height: 100vh;
-  padding-top: 80px; 
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px; /* for fixed navbar */
 }
-.home .content {
+#home .content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.home.section {
-  padding: 0;
+  text-align: center;
 }
 body {
   background-size: cover;
@@ -98,7 +95,7 @@ nav {
 .nav-links a:hover {
   color: #7edbeb;
 }
-.section {
+.section:not(#home) {
   min-height: 100vh;
   padding: 100px 20px 80px;
   display: flex;
