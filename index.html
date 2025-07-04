@@ -13,15 +13,18 @@
   <header>
     <nav>
       <div class="logo">ARUMILLI PADMA RAGA VEERA LALITHA</div>
-      <ul class="nav-links">
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#education">EDUCATION</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#certifications">CERTIFICATIONS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
+      <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links" id="nav-links">
+         <li><a href="#home">HOME</a></li>
+         <li><a href="#about">ABOUT</a></li>
+         <li><a href="#education">EDUCATION</a></li>
+         <li><a href="#skills">SKILLS</a></li>
+         <li><a href="#projects">PROJECTS</a></li>
+         <li><a href="#certifications">CERTIFICATIONS</a></li>
+         <li><a href="#contact">CONTACT</a></li>
+     </ul>
     </nav>
   </header>
   <section id="home" class="section home">
@@ -197,6 +200,14 @@
       backSpeed: 40,
       loop: true
     });
+  </script>
+  <script>
+  const toggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  toggle.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  });
   </script>
 </body>
 </html>
