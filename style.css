@@ -95,7 +95,7 @@ nav {
 .nav-links a:hover {
   color: #7edbeb;
 }
-.section:not(#home) {
+.section  {
   min-height: 100vh;
   padding: 100px 20px 80px;
   display: flex;
