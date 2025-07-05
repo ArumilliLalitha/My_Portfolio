@@ -18,9 +18,9 @@ You can view the live portfolio website here:
 
 # Contact Me
 
-- 📧 Email: [Gmail](arumillilalitha2005@gmail.com)  
-- 💼 LinkedIn: [LinkedIn](linkedin.com/in/padma-raga-veera-lalitha-arumilli-237009266)  
-- 💻 GitHub: [GitHub](github.com/ArumilliLalitha)
+- 📧 Email: (Gmail) [arumillilalitha2005@gmail.com ]
+- 💼 LinkedIn: (LinkedIn)[linkedin.com/in/padma-raga-veera-lalitha-arumilli-237009266] 
+- 💻 GitHub:(GitHub)[github.com/ArumilliLalitha]
 
 
 
