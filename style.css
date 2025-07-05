@@ -438,11 +438,8 @@ footer {
   .section p, .about-points {
     font-size: 1rem;
   }
-  .education-card, .skill-card, .project-card, .certification-card{
+  .education-card, .skill-card, .project-card, .certification-card, .contact-box {
     width: 100%;
-  }
-  . contact -box{
-    width:85%;
   }
   .badge {
     width: 100px;
