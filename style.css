@@ -494,6 +494,15 @@ h1, h2, h3 {
     margin: 10px 0;
   }
 }
+@media (max-width: 768px) {
+  .nav-links li:nth-child(1), /* HOME */
+  .nav-links li:nth-child(2), /* ABOUT */
+  .nav-links li:nth-child(3), /* EDUCATION */
+  .nav-links li:nth-child(4), /* SKILLS */
+  .nav-links li:nth-child(6)  /* CERTIFICATIONS */ {
+    display: none !important;
+  }
+}
 
 
 
