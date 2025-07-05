@@ -12,6 +12,25 @@ body {
   background-position: center;
   color:white;
 }
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0; /* remove top space */
+  text-align: center;
+  flex-direction: column;
+}
+
+.home .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#home, #about, #education, #skills, #projects, #certifications, #contact {
+  scroll-margin-top: 80px;
+}
 .badge {
   width: 120px;
   height: 120px;
