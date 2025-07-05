@@ -29,9 +29,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-#home, #about, #education, #skills, #projects, #certifications, #contact {
-  scroll-margin-top: 80px;
-}
+
 .badge {
   width: 120px;
   height: 120px;
@@ -102,7 +100,7 @@ nav {
   color: #7edbeb;
 }
 .section {
-  max-width: 70%;
+  max-width: 70px;
   min-height: 100vh;
   padding: 140px 20px 80px;
   display: flex;
