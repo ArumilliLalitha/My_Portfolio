@@ -1,8 +1,8 @@
-# 💼 My Portfolio Website
+ # My Portfolio Website
 
 This is my personal portfolio website built using **HTML, CSS, and JavaScript**. It showcases my skills, projects, education, certifications, and contact information.
 
-## 🛠️ Technologies Used
+ # Technologies Used
 
 - HTML5
 - CSS3
@@ -11,12 +11,12 @@ This is my personal portfolio website built using **HTML, CSS, and JavaScript**.
 - Responsive Web Design
 
 
-## 🌐 Live Demo
+# Live Demo
 
 You can view the live portfolio website here:  
 ➡️ [https://ArumilliLalitha.github.io/My_Portfolio](https://ArumilliLalitha.github.io/My_Portfolio)
 
-## 📫 Contact Me
+# Contact Me
 
 - 📧 Email: [arumillilalitha2005@gmail.com](Gmail)  
 - 💼 LinkedIn: [linkedin.com/in/padma-raga-veera-lalitha-arumilli-237009266](LinkedIn)  
