@@ -12,24 +12,21 @@
 <body>
   <header>
     <nav>
-  <div class="logo">ARUMILLI PADMA RAGA VEERA LALITHA</div>
-  <div class="menu-toggle" id="menu-toggle">
-    <i class="fas fa-bars"></i>
-  </div>
-  <ul class="nav-links" id="nav-links">
-    <li><a href="#home">HOME</a></li>
-    <li><a href="#about">ABOUT</a></li>
-    <li><a href="#education">EDUCATION</a></li>
-    <li><a href="#skills">SKILLS</a></li>
-    <li><a href="#projects">PROJECTS</a></li>
-    <li><a href="#certifications">CERTIFICATIONS</a></li>
-    <li><a href="#contact">CONTACT</a></li>
-  </ul>
+      <div class="logo">ARUMILLI PADMA RAGA VEERA LALITHA</div>
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#certifications">CERTIFICATIONS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
     </nav>
-    </header>
+  </header>
   <section id="home" class="section home">
     <div class="content"><br>
-      <div class="badge"><br>
+      <div class="badge">
          <span>AL</span>
       </div>
       <h1><span class="highlight">ARUMILLI PADMA RAGA VEERA LALITHA</span></h1>
@@ -128,9 +125,9 @@
   </div>
   <div class="project-card">
     <h3>My Portfolio 
-      <a href="https://github.com/ArumilliLalitha/My_Portfolio.git" target="_blank">GitHub ↗</a>
+      <a href="https://github.com/ArumilliLalitha/quiz_app.git" target="_blank">GitHub ↗</a>
     </h3>
-    <p>Designed and developed a multi-page personal portfolio to showcase projects, skills, certifications, and contact details using HTML, CSS, JavaScript</p>
+    <p></p>
   </div>
 </section>
 <section id="certifications" class="certifications-section">
@@ -206,8 +203,8 @@
   const navLinks = document.getElementById('nav-links');
   const navItems = document.querySelectorAll('#nav-links a');
   toggle.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
-  })
+    navLinks.classList.toggle('active');
+  });
   navItems.forEach(link => {
     link.addEventListener('click', () => {
       navLinks.classList.remove('active');
