@@ -438,8 +438,11 @@ footer {
   .section p, .about-points {
     font-size: 1rem;
   }
-  .education-card, .skill-card, .project-card, .certification-card, .contact-box {
+  .education-card, .skill-card, .project-card, .certification-card{
     width: 100%;
+  }
+  . contact -box{
+    width:85%;
   }
   .badge {
     width: 100px;
@@ -477,37 +480,4 @@ footer {
   .nav-links.active {
     display: flex;
   }
-}
-.contact-form-container {
-  width: 90%;
-  max-width: 400px; /* Small form box */
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #111;
-  border-radius: 15px;
-  box-shadow: 0 0 10px #00ffff;
-}
-.contact-form-container form {
-  display: flex;
-  flex-direction: column;
-}
-.contact-form-container input,
-.contact-form-container textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: none;
-  border-radius: 8px;
-  background-color: #222;
-  color: white;
-  font-size: 14px;
-}
-.contact-form-container button {
-  padding: 10px;
-  background: linear-gradient(to right, #00f0ff, #a000ff);
-  border: none;
-  border-radius: 8px;
-  color: black;
-  font-weight: bold;
-  cursor: pointer;
 }
