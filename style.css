@@ -119,6 +119,12 @@ nav {
   font-size: 1.2rem;
   max-width: 800px;
 }
+.about-points li {
+  text-align: left;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
 .about-points {
  list-style-type: disc;
  color: white;  
