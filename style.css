@@ -582,3 +582,14 @@ footer {
     font-size: 1rem;
   }
 }
+/* General fix for text overflow */
+body, html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.section, .home-content {
+  padding: 1rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
