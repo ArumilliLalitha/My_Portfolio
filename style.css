@@ -8,29 +8,10 @@
 body {
   background-size: cover;
   background-color: black;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  overflow-x: hidden; 
+  color:white;
 }
-.home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 0 20px;
-  text-align: center;
-  overflow: hidden;
-}
-
-.home .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .badge {
   width: 120px;
   height: 120px;
@@ -101,7 +82,6 @@ nav {
   color: #7edbeb;
 }
 .section {
-  max-width: 70px;
   min-height: 100vh;
   padding: 140px 20px 80px;
   display: flex;
@@ -120,12 +100,6 @@ nav {
   font-size: 1.2rem;
   max-width: 800px;
 }
-.about-points li {
-  text-align: left;
-  padding-left: 1rem;
-  margin-bottom: 0.5rem;
-  line-height: 1.6;
-}
 .about-points {
  list-style-type: disc;
  color: white;  
@@ -135,7 +109,9 @@ nav {
  font-size: 1.3rem;
  line-height: 1.7;
 }
-
+.about-points li {
+  margin-bottom: 1.3rem;
+}
 body {
   margin: 0;
   font-family: rgb(85, 202, 210);
@@ -432,88 +408,53 @@ body {
 }
 .social-icons a:hover {
   transform: scale(1.2);
-  color: #7be5f3;
+  color: #7be5f3; /* or any highlight color */
 }
 footer {
   text-align: center;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* Base styles (for desktop) */
-
-/* Responsive styles for tablets and phones */
 @media (max-width: 768px) {
-  nav .nav-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  nav .logo {
-    font-size: 18px;
-    text-align: center;
-  }
-
-  .section {
-    padding: 20px;
-  }
-
-  .skills-container, .projects-section, .certifications-section {
-    flex-direction: column;
-  }
-
-  .skill-card, .project-card, .certification-card, .education-card {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .social-icons a {
-    font-size: 20px;
-    margin: 5px;
-  }
-
-  .contact-form input, .contact-form textarea {
-    width: 100%;
-  }
-
-  .contact-links {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-/* Hamburger Icon */
-.menu-toggle {
-  display: none;
-  font-size: 28px;
-  color: white;
-  cursor: pointer;
-  z-index: 2000;
-}
-
-/* Mobile Navigation */
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
   .nav-links {
     display: none;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.95);
-    position: absolute;
-    top: 70px;
-    left: 0;
     width: 100%;
-    padding: 1rem 0;
-    z-index: 1500;
-    text-align: center;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.9);
   }
 
   .nav-links.active {
     display: flex;
   }
 
-  .nav-links li {
-    margin: 10px 0;
+  .menu-toggle {
+    display: block;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .section h1, .section h2 {
+    font-size: 1.6rem;
+  }
+
+  .section p, .about-points {
+    font-size: 1rem;
+  }
+
+  .education-card, .skill-card, .project-card, .certification-card, .contact-box {
+    width: 90%;
+  }
+
+  .badge {
+    width: 100px;
+    height: 100px;
+  }
+
+  .badge span {
+    font-size: 20px;
+    padding: 16px;
   }
 }
