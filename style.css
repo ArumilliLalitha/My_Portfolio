@@ -409,7 +409,7 @@ body {
 }
 .social-icons a:hover {
   transform: scale(1.2);
-  color: #7be5f3; /* or any highlight color */
+  color: #7be5f3;
 }
 footer {
   text-align: center;
@@ -455,12 +455,6 @@ footer {
     align-items: center;
   }
 }
-h1, h2, h3 {
-  font-size: clamp(1.5rem, 5vw, 2.5rem);
-}
-* {
-  box-sizing: border-box;
-}
 .menu-toggle {
   display: none;
   font-size: 28px;
@@ -494,6 +488,4 @@ h1, h2, h3 {
     margin: 10px 0;
   }
 }
-
-
 
