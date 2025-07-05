@@ -408,7 +408,7 @@ body {
 }
 .social-icons a:hover {
   transform: scale(1.2);
-  color: #7be5f3; /* or any highlight color */
+  color: #7be5f3; 
 }
 footer {
   text-align: center;
@@ -427,34 +427,55 @@ footer {
   .nav-links.active {
     display: flex;
   }
-
   .menu-toggle {
     display: block;
   }
-
   .logo {
     font-size: 1.2rem;
   }
-
   .section h1, .section h2 {
     font-size: 1.6rem;
   }
-
   .section p, .about-points {
     font-size: 1rem;
   }
-
   .education-card, .skill-card, .project-card, .certification-card, .contact-box {
-    width: 90%;
+    width: 100%;
   }
-
   .badge {
     width: 100px;
     height: 100px;
   }
-
   .badge span {
     font-size: 20px;
     padding: 16px;
+  }
+}
+@media (min-width: 768px) {
+  #menu-toggle {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  #menu-toggle {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1001;
+  }
+  .nav-links.active {
+    display: flex;
   }
 }
