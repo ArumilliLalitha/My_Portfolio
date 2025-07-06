@@ -7,8 +7,6 @@ This is my personal portfolio website built using **HTML, CSS, and JavaScript**.
 - HTML5
 - CSS3
 - JavaScript
-- Font Awesome (for icons)
-- Responsive Web Design
 
 
 # Live Demo
